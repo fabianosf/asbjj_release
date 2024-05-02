@@ -128,7 +128,7 @@ img {
 }
 
 .title h3 {
-  font-size: 1.5em;
+  font-size: 1.8em;
   color: #fff;
 }
 
@@ -191,12 +191,9 @@ img {
   line-height: 1.5em;
 }
 
-/* SERVICOS TURMA DE JIU-JITSU */
-.turma {
-  width: 900px;
-  height: 490px;
-}
 
+
+/* SERVICOS TURMA DE JIU-JITSU */
 
 /* NEWSLETTER */
 .newsletter h2 {
@@ -252,7 +249,7 @@ img {
 /* SMALL DEVICES - SMARTPHONES */
 @media screen and (min-width: 480px) {
   .logo {
-    width: 214px;
+    width: 300px;
     background: url(../img/logo.png) center center/110px no-repeat;
   }
 
@@ -339,6 +336,13 @@ img {
     width: 20%;
     float: none;
   }
+
+  .table {
+    width: 30%;
+    float: none;
+  }
+  
+
 }
 
 /* LARGE DEVICES - WIDE SCREENS*/
@@ -453,12 +457,7 @@ p {
   /* para desgrudar do parafrago*/
 }
 
-.maps {
-  margin-top: 2.5rem;
-  padding-top: 2.5rem;
-  justify-content: center;
-  text-align: center;
-}
+
 
 .contatos-social {
   color: #FFF;
