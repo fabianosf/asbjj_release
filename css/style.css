@@ -59,8 +59,13 @@ img {
   width: 56px;
   height: 56px;
   float: left;
-  background: url(../img/logo-mobile.png) center center/57px no-repeat;
+  background: url(../img/logo_especial.png) center center/150px no-repeat;
   font-size: 0;
+}
+
+.logo_menor {  
+   width: 10%;
+   float: left;
 }
 
 .btn-menu {
@@ -392,6 +397,7 @@ img {
   width: 100%;
   border-collapse: collapse;
   justify-content: center;
+  font-weight: bold;
 }
 
 /* Estilos para as células do cabeçalho */
@@ -409,6 +415,7 @@ img {
   padding: 15px;
   border: 1px solid #ddd;
   color: yellow;  
+  font-weight: bold;
 }
 
 .horario {
